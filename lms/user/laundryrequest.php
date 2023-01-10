@@ -113,35 +113,93 @@ function submitform()
             <div class="form-row">
               <div class="col-md-6">
                 <div class="form-label-group">
+                  
                   <input type="date" id="date" name="date" class="form-control"  required="required" autofocus="autofocus">
                   <label for="date">Pick up / Drop Date </label>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-label-group">
-                  <input type="text" id="topwear" name="topwear" class="form-control" required="required" >
-                  <label for="lastName">Topwear(Tshirt,Top,Shirt)</label>
+                <label for="inputEmail">Topwear(T-shirt,Top,Shirt)
+                <select id="quantity" name="Topwear Quantity" class="form-control">
+                <option value="0">0</option>
+
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                 
+                  </select>   
+                </label>
                 </div>
               </div>
             </div>
           </div>
+          
+      
           <div class="form-group">
             <div class="form-label-group">
-              <input type="text" id="bottomwear" name="bottomwear" class="form-control" required="required" >
-              <label for="inputEmail">Bottomwear(Lower,Jeans,Leggins)</label>
+              
+              <label for="inputEmail">Bottomwear(Lower,Jeans,Leggings)
+              <select id="quantity" name="Bottomwear Quantity" class="form-control">
+              <option value="0">0</option>
+ 
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+               
+                </select>   
+              </label>
             </div>
           </div>
+          <br>
+          </br>
+          <br>
+          </br>
           <div class="form-group">
             <div class="form-row">
               <div class="col-md-12">
                 <div class="form-label-group">
-                  <input type="text" id="woolencloth" name="woolencloth" class="form-control" required="required"  >
-                  <label for="inputPassword">Woolen Cloth</label>
+                  
+                  <label for="inputPassword">Woolen Cloth
+                  <select id="quantity" name="Woolen Quantity" class="form-control">
+                  <option value="0">0</option>
+                 
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+               
+                </select>   
+                  </label>
                 </div>
               </div>
               
             </div>
           </div>
+          <br>
+</br>
+<br>
+</br>
 <div class="form-group">
             <div class="form-row">
               <div class="col-md-12">
@@ -153,6 +211,7 @@ function submitform()
               
             </div>
           </div>
+          
           <div class="form-group">
             <div class="form-row">
               <div class="col-md-12">
